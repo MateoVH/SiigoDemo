@@ -1,0 +1,22 @@
+<Project>
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package metadata">
+    <Authors>Mateo Vergara Henao</Authors>
+    <Copyright>Copyright (c) 2026 Mateo Vergara Henao</Copyright>
+    <PackageProjectUrl>https://github.com/MateoVH/SiigoDemo</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MateoVH/SiigoDemo</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+</Project>

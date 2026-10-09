@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".github/workflows/ci.yml" />
+    <File Path=".github/workflows/release.yml" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="README.en.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/SiigoSharp.Demo/SiigoSharp.Demo.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/SiigoSharp/SiigoSharp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SiigoSharp.Tests/SiigoSharp.Tests.csproj" />
+  </Folder>
+</Solution>
